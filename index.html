@@ -37,14 +37,20 @@
     <!-- Hero Section -->
 
     <section class="hero" id="about">
-        <img src="./assets/images/abstract-light-pink-wallpaper-background-image.jpg" alt="jane-doe" loading="lazy" class="hero-img" />
+        <img src="./assets/images/me.jpg" alt="jane-doe" loading="lazy"
+            class="hero-img" />
         <div class="bio animate__animated animate__shakeX">
-            <h2 class="bio-title">About Me</h2>
+            <h2 class="bio-title" style="display: flex; justify-content: center; margin: 4px;">About Me</h2>
             <p class="bio-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-                dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-                inventore tempore minus nemo, iste ullam illo laboriosam maiores
-                repudiandae quos!
+                <span style="color: blueviolet;">Hello! </span>I am a passionate full-stack web developer driven by a mission to use and create technology for
+                addressing societal challenges. I am dedicated to introducing tech solutions
+                into communities while actively advocating for women's empowerment in the tech sphere.
+            </p>
+            <p>
+                I am proficient in using JS, HTML, and CSS to build responsive front-end and server-side websites. My
+                strengths lie in my critical thinking skills and logical approach to solving challenges. I am currently
+                expanding my skills by diving into
+                ReactJS.
             </p>
         </div>
     </section>
@@ -52,11 +58,77 @@
     <!-- More about -->
 
     <!-- Skills section -->
+    <section class="skills" id="skills">
+        <h2 class="skill-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="./assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+
+            <div class="second-set animate__animated animate__pulse">
+                <img src="./assets/icons/icons8-tailwind-css.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./assets/icons/icons8-node-js.svg" alt="" loading="lazy" class="icon icon-card" />
+                <img src="./assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
+            </div>
+        </div>
+    </section>
 
     <!-- Projects section -->
-
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-container project-card">
+                <img src="./assets/images/expense-tracker.png" alt="expense-tracker" loading="lazy"
+                    class="project-pic" />
+                <h3 class="project-title">Expense Tracker App</h3>
+                <p>This App helps you list all your expenses, how frequently they occur and calculates how much your
+                    expenses for the day, week and month. It also calculates total expenses for the month. </p>
+                <a href="https://expense-tracker-app-l08k.onrender.com/" target="_blank" class="project-link">Check it
+                    Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/waiter-availabiltiy.png" alt="netflic-clone" loading="lazy"
+                    class="project-pic" />
+                <h3 class="project-title">Waiter Availability App</h3>
+                <p class="project-details">
+                    This App provides a schedule of available waiters. A waiter will log in with their username and
+                    select all the days they are available. The store manager is able to see all available waiters for
+                    the week.
+                </p>
+                <a href="https://waiter-availability.onrender.com/" target="_blank" class="project-link">Check it
+                    Out</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="assets/images/shoe-shop.png" alt="greeny-earth" loading="lazy" class="project-pic" />
+                <h3 class="project-title">Shoe Catalogue App</h3>
+                <p class="project-details">
+                    This is an online shoe-shop website, where customers can view sneakers available. they can add them
+                    to their cart and clear their cart. They need to login before purchasing items.
+                </p>
+                <a href="https://shoes-catalague-with-api.onrender.com/" target="_blank" class="project-link">Check it
+                    Out</a>
+            </div>
+        </div>
+    </section>
     <!-- Contact section -->
-
+    <section id="contact_me">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <input type="hidden" name="contact_number">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="user_email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
     <!-- Social accounts - Fixed to the right -->
 
     <!-- Scroll to top -->
