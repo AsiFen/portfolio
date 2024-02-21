@@ -37,12 +37,12 @@
     <!-- Hero Section -->
 
     <section class="hero" id="about">
-        <img src="./assets/images/me.jpg" alt="jane-doe" loading="lazy"
-            class="hero-img" />
+        <img src="./assets/images/me.jpg" alt="jane-doe" loading="lazy" class="hero-img" />
         <div class="bio animate__animated animate__shakeX">
             <h2 class="bio-title" style="display: flex; justify-content: center; margin: 4px;">About Me</h2>
             <p class="bio-text">
-                <span style="color: blueviolet;">Hello! </span>I am a passionate full-stack web developer driven by a mission to use and create technology for
+                <span style="color: blueviolet;">Hello! </span>I am a passionate full-stack web developer driven by a
+                mission to use and create technology for
                 addressing societal challenges. I am dedicated to introducing tech solutions
                 into communities while actively advocating for women's empowerment in the tech sphere.
             </p>
@@ -114,27 +114,63 @@
         </div>
     </section>
     <!-- Contact section -->
-    <section id="contact_me">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form id="contactForm">
-                <input type="hidden" name="contact_number">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="user_name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="user_email" required>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
+    <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://formspree.io/f/xyylngw" method="POST">
+                    <div class="form-control">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Enter Your Name"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message</label>
+                        <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+                            class="input-field" required></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+                </form>
+            </div>
         </div>
     </section>
     <!-- Social accounts - Fixed to the right -->
-
+    <div class="socials">
+        <a href="https://twitter.com/AsisiphoFente" target="_blank"
+          ><img
+            src="assets/icons/icons8-twitter-circled.gif"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.instagram.com/_fentestic/" target="_blank"
+          ><img
+            src="assets/icons/icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.linkedin.com/in/asisiphofente/" target="_blank"
+          ><img
+            src="assets/icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://github.com/AsiFen" target="_blank"
+          ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+        /></a>
     <!-- Scroll to top -->
 
-    <!-- Footer section -->
-
+    <!-- Footer section
+    <footer>
+        <p class="copy">&copy; Copyright 2024</p>     
+  </footer> -->
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
 
