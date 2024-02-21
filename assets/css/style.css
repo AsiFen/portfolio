@@ -48,8 +48,17 @@ body {
 }
 
 /* nav style */
+/* Existing CSS */
+
+.navigation-section {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Existing CSS continues below */
+
 nav {
-    position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
@@ -62,8 +71,7 @@ nav {
 
 }
 
-nav h2 {
-    font-size: larger;
+nav .h1 {
     color: var(--primary-color);
 }
 
@@ -103,6 +111,7 @@ nav ul li {
     gap: 2.5rem;
     max-width: 72.75rem;
     margin: auto;
+    padding-top: 80px;
 }
 
 .hero img {
@@ -313,7 +322,6 @@ nav ul li {
 
 @media screen and (max-width: 860px) {
     .hero {
-        margin-top: 2rem;
         /* flex-direction: column; */
         gap: 0;
     }
