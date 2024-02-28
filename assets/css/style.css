@@ -328,15 +328,14 @@ nav ul li {
 
     .bio {
         flex-direction: column;
-padding: 0rem;
-border-radius: 15px;
+        padding: 0rem;
+        border-radius: 15px;
         margin-top: 2rem;
         width: 24.5rem;
     }
 }
 
 @media screen and (max-width: 720px) {
-
 
     nav {
         padding: 1.5rem 1rem;
@@ -379,8 +378,8 @@ border-radius: 15px;
     }
 
     .bio {
-        border-radius:15px ;
-        padding: 0rem;
+        border-radius: 15px;
+        padding: 1.5rem;
         margin-top: 2rem;
         width: 20.5rem;
     }
@@ -439,7 +438,7 @@ border-radius: 15px;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        position:relative;
+        position: relative;
         bottom: 1px;
     }
 }
