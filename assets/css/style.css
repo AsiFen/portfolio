@@ -326,6 +326,13 @@ nav ul li {
         gap: 0;
     }
 
+    .hero img {
+        height: 22rem;
+        border-radius: 15px;
+        width: 100%;
+        margin-top: 1em;
+    }
+
     .bio {
         flex-direction: column;
         padding: 0rem;
@@ -373,8 +380,8 @@ nav ul li {
 
     .hero img {
         /* margin: 3px; */
-        height: 20.5rem;
-        width: 20.5rem;
+        height: 18rem;
+        width: 100%;
     }
 
     .bio {
@@ -418,7 +425,7 @@ nav ul li {
 @media screen and (max-width: 420px) {
     .hero img {
         height: 17.5rem;
-        width: 17.5rem;
+        width: 100%;
     }
 
     .bio {
