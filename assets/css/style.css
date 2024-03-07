@@ -258,6 +258,7 @@ nav ul li {
 
 .contact-form-container .input-field {
     width: 100%;
+    margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 5px;
